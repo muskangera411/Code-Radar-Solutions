@@ -4,8 +4,5 @@ int main(){
     printf("");
     scanf("%f",&number);
     printf("You entered: %f",number);
-
-
-
     return 0;
 }
