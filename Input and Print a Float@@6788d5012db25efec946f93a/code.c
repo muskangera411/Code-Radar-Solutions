@@ -4,5 +4,5 @@ float main(){
     printf("");
     scanf("%f",&n);
     printf("You entered: %f/n",n);
-    return 0;
+    return 0.00;
 }
