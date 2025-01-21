@@ -4,8 +4,8 @@ int main() {
     char a;
     printf("");
     scanf("%c",&a);
-    if(isupper(c)){printf("Uppercase");}
-    else if(islower(c)){printf("Lowercase");}
+    if(isupper(a)){printf("Uppercase");}
+    else if(islower(a)){printf("Lowercase");}
     else{printf("Not an alphabet");}
 
     return 0;
