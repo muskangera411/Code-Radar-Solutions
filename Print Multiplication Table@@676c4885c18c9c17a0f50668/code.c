@@ -4,5 +4,5 @@ int main(){
     printf("");
     scanf("%d",&a);
     int i;
-    for(i=1;i<=10;i++){printf("%dX%d=%d",a,i,a*i);}
+    for(i=1;i<=10;i++){printf("%d X %d = %d",a,i,a*i);}
 }
