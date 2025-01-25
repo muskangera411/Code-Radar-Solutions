@@ -3,5 +3,13 @@ int main(){
     int a;
     printf("");
     scanf("%d",&a);
-    for(i=1,i<=a,i++){printf("%c",'*'*i);}
+    int i;
+    for(i=0;i<a;i++){
+        for(j=0;j<1,j++){
+            printf("* ");
+        printf("\n");   
+        }
+
+    }
+    return 0;
 }
