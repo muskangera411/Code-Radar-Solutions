@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char a[20];
+    char a[10];
     scanf("%s",&a);
     vowels=0;
     length=sizeof(a)/sizeof(a[0]);
