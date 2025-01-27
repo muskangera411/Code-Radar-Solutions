@@ -1,5 +1,5 @@
 #include <stdio.h>
-int msin(){
+int main(){
     char a[20];
     scanf("%s",&a);
     vowels=0;
