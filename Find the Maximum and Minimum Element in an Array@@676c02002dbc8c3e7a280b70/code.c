@@ -10,6 +10,6 @@ int main(){
         max=arr[i];
     }
     if(arr[i]<min){min=arr[i];}
-    }printf("%d %d",&min,&max);
+    }printf("%d %d",min,max);
     return 0;
 }
