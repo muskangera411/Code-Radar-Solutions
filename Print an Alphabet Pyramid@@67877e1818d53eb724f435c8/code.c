@@ -8,7 +8,7 @@ int main(){
         }
         for(int k=0;k<2*(n-i)-1,k++){
             print("%c",'A'+k);
-        }
     }printf("\n");
+        }
     return 0;
 }
