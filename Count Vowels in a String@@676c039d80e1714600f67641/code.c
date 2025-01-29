@@ -4,8 +4,8 @@ int main(){
     scanf("%s",&a);
     vowels=0;
     length=sizeof(a)/sizeof(a[0]);
-    for(char i=0;i<length;i++){
-        if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'){
+    for(int i=0;i<length;i++){
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             vowels+=1;
         }
     }
