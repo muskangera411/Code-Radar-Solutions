@@ -8,7 +8,7 @@ int main(){
     int min=arr[0];
     for(int i=1;i<a;i++){if(arr[i]<min){
         min=arr[i];}
-    if(arr[i]>max){mix=arr[i];}
+    if(arr[i]>max){max=arr[i];}
     printf("%d %d",min,max);
     }
     return 0;
