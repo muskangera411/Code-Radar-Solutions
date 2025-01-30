@@ -4,7 +4,7 @@ int main(){
     int arr[a];
     scanf("%d",&a);
     for(int i=0;i<a;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     int sort=0;
     for(i=0;i<a-1;i++){
