@@ -8,7 +8,7 @@ int main(){
         if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             vowels+=1;
         }
+        printf("%d",vowels);
     }
-    printf("%d",vowels);
     return 0;
 }
