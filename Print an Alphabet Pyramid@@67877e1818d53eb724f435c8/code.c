@@ -5,7 +5,8 @@ int main(){
     for(int i=0;i<a;i++){
         for(int k=0;k<=i,k++){
             printf("%c ",'A'+k);
-    }printf("\n");
+    }
+    printf("\n");
 }
     return 0;
 }
