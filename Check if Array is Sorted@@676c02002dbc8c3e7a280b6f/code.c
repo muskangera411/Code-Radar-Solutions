@@ -9,7 +9,7 @@ int main(){
     for(i=0;i<a-1;i++){
         if(arr[i]<=arr[i+1]){sort=1;}
         else{sort=0;}
-    }if(sort==1){printf("Sorted");}
+    }if(sort){printf("Sorted");}
     else{printf("Not Sorted");}
     return 0;
 }
