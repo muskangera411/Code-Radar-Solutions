@@ -8,6 +8,6 @@ int main(){
     for(i=0,i<length/2;i++){
         temp=str[i];str[i]=str[length-i-1];str[length-i-1]=temp;
     }
-    printf("%s",str);
+    printf("%s\n",str);
     return 0;
 }
