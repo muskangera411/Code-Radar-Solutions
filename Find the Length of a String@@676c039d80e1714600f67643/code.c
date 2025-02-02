@@ -3,7 +3,7 @@
 int main(){
     char a[20];
     scanf("%s",&a);
-    int length=sizeof(a[])/sizeof(a[0])
-    printf("%d",length);
+    
+    printf("%d",strlen(a));
     return 0;
 }
