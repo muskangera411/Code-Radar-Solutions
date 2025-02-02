@@ -3,7 +3,7 @@
 int main(){
     char str[100],temp;
     int i,length,ispalindrome=1;
-    scanf("%d",&str);
+    scanf("%s",&str);
     length=strlen(str);
     for(int i=0;i<length/2;i++){
         if(str[i]!=str[length-i-1]){
