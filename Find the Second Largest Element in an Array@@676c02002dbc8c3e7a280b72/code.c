@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){scanf("%d",&arr[i]);}
-    int max=arr[0],second=-1
+    int max=arr[0],second=-1;
     for(int i=0;i<a;i++){if(arr[i]>max){max=arr[i];}}
     for(int i=0;i<a;i++){if(arr[i]<max && second<arr[i])}
     printf("%d",second);
