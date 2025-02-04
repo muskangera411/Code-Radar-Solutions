@@ -4,9 +4,12 @@ int main(){
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
 }
 int d;
+if(d>a){
+    d=d%a;
+}
 scanf("%d",&d);
 for(int i=0;i<d;i++){
     int last=arr[a-1];
