@@ -3,7 +3,7 @@
 int main(){
     char a[20];
     scanf("%s",&a);
-    printf("%X",a);
+    printf("%[^\n]%*X",a);
     return 0;
 
 }
