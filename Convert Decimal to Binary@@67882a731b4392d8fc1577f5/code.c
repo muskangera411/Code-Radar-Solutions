@@ -9,7 +9,7 @@ int main(){
         binary[index]=a%2;
         a=a/2;
         index++;
-    }for(int i=a-1;i>=0;i--){
+    }for(int i=index-1;i>=0;i--){
         printf("%d",binary[i]);
     }
     return 0;
