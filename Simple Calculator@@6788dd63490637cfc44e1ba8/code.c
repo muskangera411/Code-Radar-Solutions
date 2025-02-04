@@ -14,6 +14,6 @@ int main(){
             else{
             int div=(a/b);
             printf("%d",div);}break;
-    }   default: printf("error");
+       default: printf("error");}
     return 0;
 }
