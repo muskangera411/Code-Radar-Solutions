@@ -12,8 +12,8 @@ int main(){
         case '/' : 
             if(b==0){printf("error");}
             else{
-                int div=(a/b);
-                printf("%d",div);break;}
+            int div=(a/b);
+            printf("%d",div);break;}
     }   default: printf("error");
     return 0;
 }
