@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char a[50],b;
-    scanf("%s",&a);
+    scanf("%49s\n",a);
     scanf("%c",&b);
     int count=0;
     for(int i=0;a[i]!='\0';i++){
