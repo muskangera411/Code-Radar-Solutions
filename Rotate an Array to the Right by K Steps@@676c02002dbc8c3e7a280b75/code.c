@@ -9,14 +9,14 @@ int main(){
     int d;
     scanf("%d",&d);
     for(int i=0;i<d;i++){
-        int last=arr[n-1];
+        int last=arr[a-1];
         for(i=a-1;i>0;i--){
             arr[i]=arr[i-1];
         }
         arr[0]=last;
     }
     for(i=0;i<a;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
     return 0;
 }
