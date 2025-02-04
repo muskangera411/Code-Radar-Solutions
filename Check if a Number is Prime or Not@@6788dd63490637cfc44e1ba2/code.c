@@ -7,7 +7,7 @@ int main(){
         return 0;
     }
     int prime=1;
-    for(i=2,i*i<=a,i++){
+    for(int i=2,i*i<=a,i++){
         if(a%i==0){prime=0;break;}
     }
     if(prime){printf("Prime");}
