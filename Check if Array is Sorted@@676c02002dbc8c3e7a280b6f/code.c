@@ -8,8 +8,8 @@ int main(){
     }
     int sort=0;
     for(int i=0;i<a-1;i++){
-        if(arr[i]<arr[i+1]){sort=1;}
-        else if(arr[i]>arr[i+1]){sort=0;}
+        if(arr[i]<=arr[i+1]){sort=1;}
+        else if(arr[i]>=arr[i+1]){sort=0;}
     }if(sort==0){printf("Not Sorted");}
     else{printf("Sorted");}
     return 0;
