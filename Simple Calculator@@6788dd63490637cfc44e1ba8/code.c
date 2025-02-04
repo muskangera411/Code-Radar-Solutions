@@ -13,7 +13,7 @@ int main(){
             if(b==0){printf("error");}
             else{
             int div=(a/b);
-            printf("%d",div);break;}
+            printf("%d",div);}break;
     }   default: printf("error");
     return 0;
 }
