@@ -4,7 +4,7 @@ int main(){
     scanf("%s",&a);
     scanf("%c",&b);
     int count=0;
-    for(int i=0;a[i]!='0';i++){
+    for(int i=0;a[i]!='\0';i++){
         if(a[i]==b){count++;}
     }
     printf("%d",count);
