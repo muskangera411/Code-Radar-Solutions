@@ -3,11 +3,12 @@ int main(){
     int a;
     scanf("%d",&a);
     int arr[a];
-    for(i=0;i<a;i++){
+    for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
     int d;
-    for(i=0;i<d;i++){
+    scanf("%d",&d);
+    for(int i=0;i<d;i++){
         int last=arr[n-1];
         for(i=a-1;i>0;i--){
             arr[i]=arr[i-1];
