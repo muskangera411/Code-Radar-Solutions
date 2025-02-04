@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a;
-    int arr[a];
     scanf("%d",&a);
+    int arr[a];
     for(int i=0;i<a;i++){scanf("%d",&arr[i]);}
     int max=arr[0];
     int min=arr[0];
