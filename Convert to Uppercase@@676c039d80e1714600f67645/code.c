@@ -6,7 +6,7 @@ int main(){
     for(i=0,a[i]!='0',i++){
         a[i]=toupper(a[i]);
     }
-    printf("%s",a);
+    printf("%X",a);
     return 0;
 
 }
