@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(arr[i]%2==0 && arr[i]>max){
             max=arr[i];
-        }
+        }else{max=-1;}
     }
     printf("%d",max);
     return 0;
