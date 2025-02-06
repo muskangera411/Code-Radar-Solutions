@@ -3,7 +3,7 @@
 int main(){
     char str[100],temp;
     int i,l;
-    scanf("%s",str);
+    fgets(str,sizeof(str),stdin);
     l=strlen(str);
     for(i=0,i<l/2;i++){
         temp=str[i];
