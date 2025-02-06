@@ -3,8 +3,8 @@
 int main(){
     char a[10];
     scanf("%s",&a);
-    vowels=0;
-    length=strlen(a);
+    int vowels=0;
+    int length=strlen(a);
     for(int i=0;i<length;i++){
         if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             vowels+=1;
