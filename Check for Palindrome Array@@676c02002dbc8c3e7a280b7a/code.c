@@ -6,10 +6,10 @@ int main(){
     int arr[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
-    }int p=0;
+    }int p=1;
     for(int i=0;i<a/2;i++){
-        if(arr[i]==arr[a-i-1]){
-            p=1;
+        if(arr[i]!=arr[a-i-1]){
+            p=0;
         }
         
     }
