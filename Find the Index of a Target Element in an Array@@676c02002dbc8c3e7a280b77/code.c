@@ -11,9 +11,10 @@ int main(){
     scanf("%d",&T);
     for(int i=0;i<a;i++){
         if(arr[i]==T){
-        printf("%d",i);
+        x=i;
         break;
     }
-    else{printf("%d",x);}}
+    }
+    printf("%d",x);
     return 0;
 }
