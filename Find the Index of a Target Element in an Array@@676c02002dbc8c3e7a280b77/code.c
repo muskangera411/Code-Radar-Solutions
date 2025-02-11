@@ -10,9 +10,9 @@ int main(){
     int T;
     scanf("%d",&T);
     for(int i=0;i<a;i++){
-        if(arr[i]==T);
+        if(arr[i]==T){
         break;
-        printf("%d",i);
+        printf("%d",i);}
     }
     return 0;
 }
