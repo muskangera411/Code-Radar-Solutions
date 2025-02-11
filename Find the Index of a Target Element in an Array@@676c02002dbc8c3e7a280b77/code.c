@@ -14,6 +14,6 @@ int main(){
         printf("%d",i);
         break;
     }
-    else{printf("&d",-1);}}
+    else{printf("&d",x);}}
     return 0;
 }
