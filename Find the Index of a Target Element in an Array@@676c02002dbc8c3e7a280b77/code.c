@@ -11,8 +11,8 @@ int main(){
     scanf("%d",&T);
     for(int i=0;i<a;i++){
         if(arr[i]==T){
+        printf("%d",i);
         break;
-        printf("%d",i);}
-    }
+    }}
     return 0;
 }
