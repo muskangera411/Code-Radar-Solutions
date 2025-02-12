@@ -8,7 +8,7 @@ int main(){
    } int second=-1;
    for(int i=0;i<a;i++){
     if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
-        second max=arr[i];
+        second=arr[i];
         break;
     }
     printf("%d",second);
