@@ -3,7 +3,8 @@
 int main(){
     char a[20];
     scanf("%s",&a);
-    printf("%[^\n]%*X",a);
+    X=toupper(a);
+    printf("%s",X);
     return 0;
 
 }
