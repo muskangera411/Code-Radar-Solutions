@@ -8,6 +8,7 @@ int main(){
     }
     int d;
     scanf("%d",&d);
+    d=d%a;
     for(int i=0;i<d;i++){
         int last=arr[a-1];
         for(j=a-1;j>0;j--){
