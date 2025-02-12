@@ -10,8 +10,8 @@ int main(){
     if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
         second=arr[i];
         break;
-    printf("%d",second);
     }
    }
+    printf("%d",second);
    return 0;
 }
