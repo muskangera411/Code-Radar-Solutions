@@ -9,9 +9,9 @@ int main(){
    for(int i=0;i<a;i++){
     if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
         second=arr[i];
+    printf("%d",second);
         break;
     }
-    printf("%d",second);
    }
    return 0;
 }
