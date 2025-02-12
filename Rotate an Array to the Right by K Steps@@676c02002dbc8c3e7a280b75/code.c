@@ -10,8 +10,8 @@ int main(){
     scanf("%d",&d);
     for(int i=0;i<d;i++){
         int last=arr[a-1];
-        for(i=a-1;i>0;i--){
-            arr[i]=arr[i-1];
+        for(j=a-1;j>0;j--){
+            arr[j]=arr[i-1];
         }
         arr[0]=last;
     }
