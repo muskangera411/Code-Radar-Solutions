@@ -5,12 +5,13 @@ int main(){
    int arr[a];
    for(int i=0;i<a;i++){
     scanf("%d",&arr[i]);
-   } 
+   } int second=-1;
    for(int i=0;i<a;i++){
     if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
-        printf("%d",arr[i]);
+        second max=arr[i];
         break;
     }
+    printf("%d",second);
    }
    return 0;
 }
