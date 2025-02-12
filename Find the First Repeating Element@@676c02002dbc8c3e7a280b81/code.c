@@ -13,7 +13,8 @@ int main(){
                 x=arr[j];
                 break;
             }
-        }}
+        }
+        if(x!=-1){break;}}
                 printf("%d",x);
     return 0;
 }
