@@ -9,7 +9,7 @@ int main(){
     int min=INT_MAX,second=INT_MAX;
     for(int i=0;i<a;i++){if(arr[i]<min){second=min;min=arr[i];}}
     for(int i=0;i<a;i++){if(arr[i]<second && arr[i]>min){second=arr[i];}}
-    if(second==INT_MIN){
+    if(second==INT_MAX){
         second=-1;
     }
     printf("%d",second);
