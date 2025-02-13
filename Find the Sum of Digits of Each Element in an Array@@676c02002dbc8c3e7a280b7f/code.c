@@ -4,7 +4,11 @@ int main(){
     scanf("%d",&a);
     for(int i=0;i<a;i++){scanf("%d",&arr[i]);}
     int sum=0;
-    for(i=0;i<a;i++){sum+=arr[i];}
-    printf("%d",sum);
+    for(int i=0;i<a;i++){
+    while(a>0){
+        sum+=arr[i]%10;
+        arr[i]/=10;
+    }
+    printf("%d",sum);}
     return 0;
 }
