@@ -12,12 +12,12 @@ int main(){
     for(int i=0;i<a;i++){
         if(freq[i]!=-1){continue;}
     int count=1;
-    for(int j=i+1;i<a;j++){
+    for(int j=i+1;j<a;j++){
         if(arr[i]==arr[j]){
             count++;
             freq[j]=0;
         }
-    }freq=count;
+    }freq[i]=count;
     }for(int i=0;i<a;i++){
         printf("%d %d",arr[i],freq[i]);
     }
