@@ -19,8 +19,9 @@ int main(){
         }
     }freq[i]=count;
     }for(int i=0;i<a;i++){
+        if(freq[i]!=0){
         printf("%d %d\n",arr[i],freq[i]);
-    }
+    }}
     return 0;
 
 }
