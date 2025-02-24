@@ -14,6 +14,7 @@ int main(){
                 
             }
         }
-        printf("%d",prime);
     }
+        printf("%d",prime);
+        return 0;
 }
