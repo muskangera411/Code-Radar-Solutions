@@ -8,10 +8,10 @@ int main(){
     }int max=1,size;
     for(int i=0;i<a;i++){
         size=sizeof(arr[i]);
-        if(size>max){
-            printf("%d",size);
         }
 
+        if(size>max){
+            printf("%d",size);
     }
     return 0;
 
