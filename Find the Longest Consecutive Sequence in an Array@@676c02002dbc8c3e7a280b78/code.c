@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }int max=1,size;
     for(int i=0;i<a;i++){
-        size=sizeof(arr);
+        size=sizeof(arr)/4;
         }
 
         if(size>max){
