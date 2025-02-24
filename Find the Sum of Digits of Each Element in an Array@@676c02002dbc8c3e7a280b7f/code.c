@@ -9,7 +9,7 @@ int main(){
     int sum=0;
     int num=abs(arr[i]);
     while(arr[i]>0){
-        sum+=num%10;
+        sum=sum+num%10;
         num/=10;
     }
     printf("%d ",sum);}
