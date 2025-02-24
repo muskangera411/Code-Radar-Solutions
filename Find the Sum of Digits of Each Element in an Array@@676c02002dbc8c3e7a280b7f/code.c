@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<a;i++){
     int sum=0;
     int num=abs(arr[i]);
-    while(arr[i]>0){
+    while(num>0){
         sum=sum+num%10;
         num=num/10;
     }
