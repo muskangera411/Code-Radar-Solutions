@@ -2,12 +2,13 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int arr[a];
+    int arr[a],freq[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
-    }int freq[a];
+        freq[i]=-1;
+    }
     int i;
-    freq[i]=-1;
+    
     for(int i=0;i<a;i++){
         if(freq[i]!=-1){continue;}
     int count=1;
