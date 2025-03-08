@@ -12,9 +12,6 @@ int main(){
             if(arr[i]%j!=0){
                 prime++;
                 break;
-            else if(arr[i]==2){
-                prime++;
-            }
             }
         }
     }
