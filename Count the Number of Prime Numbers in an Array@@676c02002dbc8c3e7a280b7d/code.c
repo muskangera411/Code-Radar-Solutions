@@ -21,7 +21,7 @@ int is_prime(int a){
         return 0;
     }
     else{
-        for(int i=2;i*i<a;i++){
+        for(int i=2;i*i<=a;i++){
             if(a%2==0){
                 return 0;
             }
