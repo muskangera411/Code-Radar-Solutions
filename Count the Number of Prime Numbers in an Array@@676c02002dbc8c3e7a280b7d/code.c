@@ -9,7 +9,7 @@ int main(){
     }
     int count=0;
     for(int j=0;j<n;j++){
-        if(is_prime){
+        if(is_prime(arr[j])){
             count++;
         }
     }
