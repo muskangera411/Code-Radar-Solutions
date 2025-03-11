@@ -15,7 +15,7 @@ int main(){
                 break;
             }
             else if(arr[i]==1 || arr[i]==0){
-                pass;
+                break;
             }
         }
     }
