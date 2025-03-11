@@ -17,7 +17,7 @@ int main(){
     return 0;
 }
 int is_prime(int a){
-    if(a<0){
+    if(a<2){
         return 0;
     }
     else{
