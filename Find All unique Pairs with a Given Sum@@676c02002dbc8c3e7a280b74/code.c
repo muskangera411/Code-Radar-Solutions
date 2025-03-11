@@ -13,7 +13,8 @@ int main(){
             if(!used[i] && !used[j] && arr[i]+arr[j]==x){
             printf("%d %d\n",arr[i],arr[j]);
             used[i] = used[j] = 1; 
-            arr[i] = arr[j] = 100000; }
+        
+         }
         }
     }
     return 0;
