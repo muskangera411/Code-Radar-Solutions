@@ -22,7 +22,7 @@ int is_prime(int a){
     }
     else{
         for(int i=2;i*i<=a;i++){
-            if(a%2==0){
+            if(a%i==0){
                 return 0;
             }
             return 1;
