@@ -8,10 +8,14 @@ int main(){
     }
     int prime=0;
     for(int i=0;i<a;i++){
+
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j!=0){
                 prime++;
                 break;
+            }
+            else if(arr[i]==1 || arr[i]==0){
+                pass;
             }
         }
     }
