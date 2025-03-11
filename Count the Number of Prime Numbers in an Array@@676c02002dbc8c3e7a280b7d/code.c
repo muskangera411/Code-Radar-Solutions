@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int j=0;j<n;j++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[j]);
     }
     int count=0;
     for(int j=0;j<n;j++){
@@ -13,7 +13,8 @@ int main(){
             count++;
         }
     }
-
+    printf("%d",count);
+    return 0;
 }
 int is_prime(int a){
     if(a<0){
