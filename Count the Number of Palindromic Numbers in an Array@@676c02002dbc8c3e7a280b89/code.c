@@ -15,7 +15,7 @@ int main(){
 
 }
 
-int is_palindrome(int_num){
+int is_palindrome(int num){
     int a,rnum=0,rem,num;
    scanf("%d",&a);
      a=num;
