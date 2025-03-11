@@ -10,8 +10,9 @@ int main(){
     scanf("%d",&x);
     for(int i=0;i<a;i++){
         for(int j=i+1;j<a;j++){
-            if(arr[i]+arr[j]==x){
+            if(!used[i] && !used[j] && arr[i]+arr[j]==x){
             printf("%d %d\n",arr[i],arr[j]);
+            used[i] = used[j] = 1; 
             arr[i] = arr[j] = 100000; }
         }
     }
