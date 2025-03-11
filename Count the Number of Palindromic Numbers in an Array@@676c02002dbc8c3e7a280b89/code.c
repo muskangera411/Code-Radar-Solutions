@@ -19,9 +19,9 @@ int main() {
     return 0;
 }
 
-// Function to check if a number is a palindrome
+
 int is_palindrome(int a) {
-    int rnum = 0, rem, num = a;  // Store original number
+    int rnum = 0, rem, num = a; 
 
     while (a > 0) {
         rem = a % 10;
@@ -29,5 +29,5 @@ int is_palindrome(int a) {
         a /= 10;
     }
 
-    return (rnum == num);  // Returns 1 if palindrome, 0 otherwise
+    return (rnum == num);  
 }
