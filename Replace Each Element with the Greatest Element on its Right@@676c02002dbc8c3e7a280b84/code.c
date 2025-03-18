@@ -14,7 +14,7 @@ int main(){
             }
             arr[i]=maxRight;
         }        
-        printf("%d ",nextGreater);
+        printf("%d ",maxRight);
     }
     return 0;
 }
