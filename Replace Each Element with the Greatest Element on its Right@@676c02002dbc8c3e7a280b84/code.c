@@ -7,14 +7,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<a;i++){
-    int nextGreater=-1;
+    int maxRight=-1;
         for(int j=i+1;j<a;j++){
             if((arr[j]>arr[i])){
-                nextGreater=arr[j];
-                
+                maxRight=arr[j];       
             }
-        }
-                
+            arr[i]=maxRight;
+        }        
         printf("%d ",nextGreater);
     }
     return 0;
