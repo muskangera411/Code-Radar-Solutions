@@ -12,8 +12,8 @@ int main(){
             if(arr[j]>arr[i]){
                 nextGreater=arr[j];
             }
-                break;
         }
+                break;
         printf("%d ",nextGreater);
     }
     return 0;
