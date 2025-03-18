@@ -6,12 +6,13 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int minDiff=0;
+    int minDiff=0 first,second;
+
     for(int i=0;i<a;i++){
         for(int j=i+1;j<a;j++){
             if((arr[i]-arr[j]<minDiff)||(arr[j]-arr[i]<minDiff)){
-                minDiff=arr[i]-arr[j];
-            printf("%d %d",arr[i],arr[j]);
+                first=arr[i];second=arr[j];
+            printf("%d %d",first,second);
             }
         }
     }
