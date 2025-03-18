@@ -11,7 +11,7 @@ int main(){
         for(int j=i+1;j<a;j++){
             if((arr[j]>arr[i])){
                 maxRight=arr[j];       
-            break;
+            
             }
             arr[i]=maxRight;
         }        
