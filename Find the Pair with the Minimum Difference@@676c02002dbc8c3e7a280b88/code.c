@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int minDiff=0 first,second;
+    int minDiff=0 ,first,second;
 
     for(int i=0;i<a;i++){
         for(int j=i+1;j<a;j++){
