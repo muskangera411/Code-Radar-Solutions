@@ -13,8 +13,8 @@ int main(){
             if((arr[i]-arr[j]<minDiff)||(arr[j]-arr[i]<minDiff)){
                 first=arr[i];second=arr[j];
             }
-            printf("%d %d",first,second);
         }
+            printf("%d %d",first,second);
     }
     
 }
