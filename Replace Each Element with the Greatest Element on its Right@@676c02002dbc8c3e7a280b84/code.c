@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<a;i++){
     int maxRight=-1;
         for(int j=i+1;j<a;j++){
-            if((arr[j]>arr[i])){
+            if((arr[j]>maxRight)){
                 maxRight=arr[j];       
             
             }
