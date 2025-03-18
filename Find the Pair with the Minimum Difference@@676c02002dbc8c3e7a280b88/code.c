@@ -12,10 +12,8 @@ int main(){
             if((arr[i]-arr[j]<minDiff)||(arr[j]-arr[i]<minDiff)){
                 minDiff=arr[i]-arr[j];
             }
-
-
-        }
             printf("%d %d",arr[i],arr[j]);
+        }
     }
     
 }
