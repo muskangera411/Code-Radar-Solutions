@@ -13,6 +13,7 @@ int main(){
                 maxRight=arr[j];       
             }
             arr[i]=maxRight;
+            break;
         }        
         printf("%d ",maxRight);
     }
