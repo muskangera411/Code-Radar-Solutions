@@ -11,8 +11,8 @@ int main(){
         for(int j=i+1;j<a;j++){
             if(arr[j]>arr[i]){
                 nextGreater=arr[j];
-                break;
             }
+                break;
         }
         printf("%d ",nextGreater);
     }
