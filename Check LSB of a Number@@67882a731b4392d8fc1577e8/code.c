@@ -5,7 +5,12 @@ int main() {
     scanf("%d", &num);
     
     int lsb = num & 1; 
-    printf("%d",lsb);
+    if(lsb==1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
 
     return 0;
 }
