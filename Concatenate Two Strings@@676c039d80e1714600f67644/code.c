@@ -2,9 +2,10 @@
 #include <string.h>
 int main(){
     char a[15];b[15];
-    scanf("%s %s",&a,&b);
+    fgets(str,sizeof(a),stdin);
+    fgets(str,sizeof(b),stdin);
     strcat(a,b);
-    printf("%s",a);
+    printf("%s%s",a,b);
     return 0;
 
 }
