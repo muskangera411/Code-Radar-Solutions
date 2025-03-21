@@ -3,7 +3,7 @@
 int main(){
     char str[50];
     int length=strlen(str);
-    fgets(str,sizeof(a),stdin);
+    fgets(str,sizeof(str),stdin);
     printf("%d",length);
     return 0;
 }
