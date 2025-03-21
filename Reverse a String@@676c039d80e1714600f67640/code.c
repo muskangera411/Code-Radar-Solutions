@@ -5,7 +5,7 @@ int main(){
     int i,l;
     fgets(str,sizeof(str),stdin);
     l=strlen(str);
-    for(i=0,i<l/2;i++){
+    for(i=0;i<l/2;i++){
         temp=str[i];
         str[i]=str[l-i-1];
         str[l-i-1]=temp;
